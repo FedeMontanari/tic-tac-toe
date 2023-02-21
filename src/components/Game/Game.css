@@ -1,0 +1,112 @@
+:root {
+  --no-border-top: none;
+  --no-border-bottom: none;
+  --no-border-left: none;
+  --no-border-right: none;
+  --gradient-color: linear-gradient(
+    rgba(31, 137, 219, 1),
+    rgba(245, 42, 140, 1)
+  );
+}
+
+.finalMessage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 50vw;
+  left: 10%;
+  position: fixed;
+  margin: 0 auto;
+  right: 10%;
+}
+
+.tieMessage {
+  max-height: 100vh;
+  max-width: 100vw;
+  min-height: 320px;
+  min-width: 320px;
+}
+
+.winnerMessage {
+  max-height: 80vh;
+  max-width: 100vw;
+  min-width: 320px;
+  min-height: 320px;
+}
+
+.restartBtn {
+  width: 50%;
+}
+
+#gameWrapper {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../assets/background.png");
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameGrid {
+  max-height: 100vh;
+  max-width: 100vw;
+  min-height: 320px;
+  min-width: 320px;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+.piecesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 80vw;
+  height: 95vh;
+  margin: auto auto;
+  background-color: #7272721f;
+}
+
+.piecesContainer > div:hover {
+  cursor: pointer;
+}
+
+.piecesContainer > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px dashed;
+  border-image: var(--gradient-color) 27 stretch;
+}
+
+.piecesContainer > div > img {
+  max-height: 30vh;
+}
+
+#pos1,
+#pos2,
+#pos3 {
+  border-top: var(--no-border-top);
+}
+
+#pos7,
+#pos8,
+#pos9 {
+  border-bottom: var(--no-border-bottom);
+}
+
+#pos1,
+#pos4,
+#pos7 {
+  border-left: var(--no-border-left);
+}
+
+#pos3,
+#pos6,
+#pos9 {
+  border-right: var(--no-border-right);
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="7 135 477 224" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient id="color-0" bx:pinned="true">
+      <stop style="stop-color: #b92b27;" offset="0"/>
+      <stop style="stop-color: #1565c0;" offset="1"/>
+    </linearGradient>
+    <linearGradient id="color-0-0" gradientUnits="userSpaceOnUse" x1="114.726" y1="190.429" x2="114.726" y2="218.925" xlink:href="#color-0"/>
+  </defs>
+  <text style="fill: url(#color-0-0); font-family: Arial, sans-serif; font-size: 25.5px; paint-order: fill; white-space: pre;" transform="matrix(12.606757, 0, 0, 12.302139, -1196.267822, -2266.780273)"><tspan x="94.891" y="213.504">TIE</tspan><tspan x="94.891" dy="1em">​</tspan></text>
+</svg>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="220.789" y1="323.168" x2="220.789" y2="490.906" id="gradient-0" gradientTransform="matrix(0.999971, 0.004782, -0.011806, 0.988793, -4.099259, 2.879423)">
+      <stop offset="0" style="stop-color: rgba(31, 137, 219, 1)"/>
+      <stop offset="1" style="stop-color: rgb(244, 42, 140);"/>
+    </linearGradient>
+    <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="ggglitch-grad">
+      <stop stop-color="hsl(206, 75%, 49%)" stop-opacity="1" offset="0.45"/>
+      <stop stop-color="hsl(331, 90%, 56%)" stop-opacity="1" offset="1"/>
+    </linearGradient>
+    <clipPath id="SvgjsClipPath1436">
+      <rect width="61.53846153846154" height="800" x="0" y="0"/>
+      <rect width="61.53846153846154" height="800" x="123.07692307692308" y="0"/>
+      <rect width="61.53846153846154" height="800" x="246.15384615384616" y="0"/>
+      <rect width="61.53846153846154" height="800" x="369.2307692307692" y="0"/>
+      <rect width="61.53846153846154" height="800" x="492.3076923076923" y="0"/>
+      <rect width="61.53846153846154" height="800" x="615.3846153846154" y="0"/>
+      <rect width="61.53846153846154" height="800" x="738.4615384615385" y="0"/>
+      <rect width="61.53846153846154" height="800" x="861.5384615384615" y="0"/>
+      <rect width="61.53846153846154" height="800" x="984.6153846153846" y="0"/>
+      <rect width="61.53846153846154" height="800" x="1107.6923076923076" y="0"/>
+      <rect width="61.53846153846154" height="800" x="1230.7692307692307" y="0"/>
+      <rect width="61.53846153846154" height="800" x="1353.8461538461538" y="0"/>
+      <rect width="61.53846153846154" height="800" x="1476.923076923077" y="0"/>
+      <rect width="61.53846153846154" height="800" x="1600" y="0"/>
+    </clipPath>
+    <clipPath id="SvgjsClipPath1437">
+      <rect width="61.53846153846154" height="800" x="61.53846153846154" y="0"/>
+      <rect width="61.53846153846154" height="800" x="184.6153846153846" y="0"/>
+      <rect width="61.53846153846154" height="800" x="307.6923076923077" y="0"/>
+      <rect width="61.53846153846154" height="800" x="430.7692307692308" y="0"/>
+      <rect width="61.53846153846154" height="800" x="553.8461538461538" y="0"/>
+      <rect width="61.53846153846154" height="800" x="676.9230769230769" y="0"/>
+      <rect width="61.53846153846154" height="800" x="800" y="0"/>
+      <rect width="61.53846153846154" height="800" x="923.0769230769231" y="0"/>
+      <rect width="61.53846153846154" height="800" x="1046.1538461538462" y="0"/>
+      <rect width="61.53846153846154" height="800" x="1169.2307692307693" y="0"/>
+      <rect width="61.53846153846154" height="800" x="1292.3076923076924" y="0"/>
+      <rect width="61.53846153846154" height="800" x="1415.3846153846155" y="0"/>
+      <rect width="61.53846153846154" height="800" x="1538.4615384615386" y="0"/>
+    </clipPath>
+  </defs>
+  <text style="fill: url(#gradient-0); font-family: Arial, sans-serif; font-size: 150px; font-weight: 700; white-space: pre;" transform="matrix(1.132324, 0, 0, 1.788974, 0, -378.219238)" x="0" y="459.081">WINS!</text>
+  <g stroke-width="48" stroke="url(#ggglitch-grad)" fill="none" transform="matrix(0.265957, 0, 0, 0.265957, 143.617203, 3.14618)">
+    <circle r="364.5" cx="400" cy="400" fill="none" opacity="0.21" clip-path="url(#SvgjsClipPath1436)"/>
+    <circle r="258.5" cx="400" cy="400" fill="none" opacity="0.21" clip-path="url(#SvgjsClipPath1436)"/>
+    <circle r="152.5" cx="400" cy="400" fill="none" opacity="0.21" clip-path="url(#SvgjsClipPath1436)"/>
+    <circle r="46.5" cx="400" cy="400" fill="none" opacity="0.21" clip-path="url(#SvgjsClipPath1436)"/>
+    <circle r="376" cx="400" cy="400" fill="none" clip-path="url(#SvgjsClipPath1437)"/>
+    <circle r="270" cx="400" cy="400" fill="none" clip-path="url(#SvgjsClipPath1437)"/>
+    <circle r="164" cx="400" cy="400" fill="none" clip-path="url(#SvgjsClipPath1437)"/>
+    <circle r="58" cx="400" cy="400" fill="none" clip-path="url(#SvgjsClipPath1437)"/>
+  </g>
+</svg>
